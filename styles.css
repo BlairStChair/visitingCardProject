@@ -11,6 +11,7 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     background-color: #F6F8FF;
+    font-family: "Ubuntu Sans", sans-serif;
 }
 
 input, button, textarea, select {
