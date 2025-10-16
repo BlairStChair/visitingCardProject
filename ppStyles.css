@@ -1,0 +1,46 @@
+ /* CSS reset */
+ *, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+    
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000;
+    color: #FFF;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding: 2vh;
+    max-width: none;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+  
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+li{
+    margin: 1vh;
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+      max-width: 50%;
+    }
+  }
+  
