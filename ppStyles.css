@@ -16,6 +16,7 @@ body {
     font-family: "Ubuntu Sans", sans-serif;
     padding: 2vh;
     max-width: none;
+    margin: 0 auto;
 }
 
 input, button, textarea, select {
@@ -38,9 +39,12 @@ li{
     margin: 1vh;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px){
     body {
       max-width: 50%;
     }
-  }
+}
   
+.privacyPolicyHeader{
+    text-align: center;
+}
