@@ -84,6 +84,28 @@ h1, h2, h3, h4, h5, h6 {
     height: 700px;
 }
 
+.banerText{
+    color: #F1F3FF;
+    position: absolute;
+    z-index: 999;
+}
+
+.banerText .slogan{
+    font-weight: bolder;
+}
+
+.banerText .companyName{
+
+}
+
+.banerText .name{
+
+}
+
+.banerText .servicesName{
+    
+}
+
 .banerImg img{
     position: absolute;
     z-index: 1;
