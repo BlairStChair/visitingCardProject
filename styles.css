@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .headerDiv{
     background-color: #F6F8FF;
     width: 100%;
-    height: 20%;
+    height: 10.3%;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -45,6 +45,30 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 .navBar{
-    background-color: #CCCED7;
-    border-radius: 50px;
+  background-color: #CCCED7;
+  margin: 10px;
+  border-radius: 50px;
+  padding: 0px;
+}
+
+.navTab{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navTab li{       
+  border-radius: 50px;       
+  height: 100%;
+  padding: 12px 20px;
+}
+
+.navTab li:hover{
+  background-color: #AEB0BC;  
 }
