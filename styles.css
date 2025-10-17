@@ -89,8 +89,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #F1F3FF;
     position: absolute;
     z-index: 999;
-    left: 200px;
-    top: 200px;
+    left: 250px;
+    top: 190px;
 }
 
 .banerText .slogan{
