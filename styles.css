@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;       
   height: 100%;
   padding: 12px 20px;
+  white-space: nowrap;
 }
 
 .navTab li:hover{
@@ -88,22 +89,29 @@ h1, h2, h3, h4, h5, h6 {
     color: #F1F3FF;
     position: absolute;
     z-index: 999;
+    left: 200px;
+    top: 200px;
 }
 
 .banerText .slogan{
     font-weight: bolder;
+    font-size: 40px;
+    white-space: nowrap;
 }
 
 .banerText .companyName{
-
+    font-size: 64px;
+    white-space: nowrap;
 }
 
 .banerText .name{
-
+    font-size: 44px;
+    white-space: nowrap;
 }
 
 .banerText .servicesName{
-    
+    font-size: 40px;
+    white-space: nowrap;
 }
 
 .banerImg img{
