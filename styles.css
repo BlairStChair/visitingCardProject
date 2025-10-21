@@ -90,6 +90,9 @@ h1, h2, h3, h4, h5, h6 {
 .contentDiv{
     padding-top: 10.3%;
     padding: 10.3% 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .baner{
@@ -145,13 +148,23 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;  
 }
 
+.personalDesc{
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
 .personalDesc .personalPhoto img{
     height: 500px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 24px;
 }
 
 .personalDesc .divider .dividerBody{
     background-color: #4D7298;
+    height: 500px;
+    width: 8px;
+    border-radius: 30px;
 }
 
 .contact{
