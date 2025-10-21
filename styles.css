@@ -148,6 +148,21 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;  
 }
 
+.servicesPriceList{
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.servicesPriceList table{
+    background-color: #e0e1e9;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.servicesPriceList table th{
+    padding: 10px 20px;
+}
+
 .personalDesc{
     margin: 0 auto;
     display: flex;
@@ -169,8 +184,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .personalDesc .personalText p {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 55px;
+    font-size: 22px;
+    line-height: 40px;
 }
 
 .contact{
@@ -186,6 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contactInfo{
     font-weight: bold;
+    font-size: 20px;
 }
 
 .contactInfo ul{
