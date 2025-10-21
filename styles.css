@@ -145,6 +145,15 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;  
 }
 
+.personalDesc .personalPhoto img{
+    height: 500px;
+    border-radius: 30px;
+}
+
+.personalDesc .divider .dividerBody{
+    background-color: #4D7298;
+}
+
 .contact{
     width: 1000px;
     margin: 0 auto;
