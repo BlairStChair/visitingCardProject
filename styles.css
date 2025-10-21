@@ -167,6 +167,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 30px;
 }
 
+.personalDesc .personalText p {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+}
+
 .contact{
     width: 1000px;
     margin: 0 auto;
