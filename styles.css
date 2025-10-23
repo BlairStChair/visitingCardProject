@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 .headerDiv{
     background-color: #F6F8FF;
     width: 100%;
